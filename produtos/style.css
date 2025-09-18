@@ -86,7 +86,7 @@ body {
 }
 
 
-.btn-danger {
+.card .btn-danger {
   width: 180px;
   height: 45px;
   margin: 0 auto;
@@ -99,11 +99,11 @@ body {
   transition: all 0.3s ease;
 }
 
-.btn-danger i {
+.card .btn-danger i {
   margin-right: 8px;
 }
 
-.btn-danger:hover {
+.card .btn-danger:hover {
   transform: translateY(-3px);
 }
 
