@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loja SPFC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">SPFC Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link item" href="#">Início</a></li>
+            <li class="nav-item"><a class="nav-link item" href="#produtos">Produtos</a></li>
+            <li class="nav-item"><a class="nav-link item" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link item " href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <a href="#produtos">
+      <img src="imagens/Banner SPFC.jpg" alt="Banner SPFC">
+    </a>
+  </div>
+
+  <section class="produtos">
+    <div class="container-produtos">
+      <div class="container my-5">
+        <h2 class="text-center mb-4 fs-1 fw-bold" id="produtos"><span class="text-danger">Produtos</span> <span class="text-white"> Em</span> <span class="text-black">Destaque</span></h2>
+        <div class="row">
+
+          <!-- Carrossel 1: Camisas -->
+          <div class="col-12 col-lg-4 mb-4">
+            <div id="carouselCamisas" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+              data-bs-theme="dark">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="product-card">
+                    <img src="imagens/Camisa1-NewBalance2025.webp" alt="Camisa 1">
+                    <div class="product-info">
+                      <h5>Camisa 1 Oficial SPFC</h5>
+                      <p class="descricao">Camisa oficial da temporada 2025, tecido leve e confortável.</p>
+                      <div class="tags">
+                        <span class="badge bg-danger">Novo</span>
+                        <span class="badge bg-dark">Oficial</span>
+                      </div>
+                      <p class="preco">R$ 319,90</p>
+                      <button class="btn btn-danger mt-2">
+                        <i class="fas fa-shopping-cart"></i> Comprar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="product-card">
+                    <img src="imagens/Camisa3-NewBalance.webp" alt="Camisa 3">
+                    <div class="product-info">
+                      <h5>Camisa 3 Oficial SPFC</h5>
+                      <p class="descricao">Versão alternativa 2025 em edição limitada.</p>
+                      <div class="tags">
+                        <span class="badge bg-warning text-dark">Limitada</span>
+                      </div>
+                      <p class="preco">R$ 399,90</p>
+                      <button class="btn btn-danger mt-2">
+                        <i class="fas fa-shopping-cart"></i> Comprar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCamisas"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselCamisas"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Carrossel 2: Produtos licenciados -->
+          <div class="col-12 col-lg-4 mb-4">
+            <div id="carouselProdutos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+              data-bs-theme="dark">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="product-card">
+                    <img src="imagens/Boné.webp" alt="Boné">
+                    <div class="product-info">
+                      <h5>Boné Tricolor</h5>
+                      <p class="descricao">Boné oficial com ajuste traseiro e escudo bordado.</p>
+                      <div class="tags">
+                        <span class="badge bg-dark">Licenciado</span>
+                      </div>
+                      <p class="preco">R$ 149,90</p>
+                      <button class="btn btn-danger mt-2">
+                        <i class="fas fa-shopping-cart"></i> Comprar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="product-card">
+                    <img src="imagens/Blusa_spfc.webp" alt="Blusa">
+                    <div class="product-info">
+                      <h5>Blusa SPFC</h5>
+                      <p class="descricao">Blusa oficial com forro macio, ideal para dias frios.</p>
+                      <div class="tags">
+                        <span class="badge bg-danger">Novo</span>
+                      </div>
+                      <p class="preco">R$ 199,90</p>
+                      <button class="btn btn-danger mt-2">
+                        <i class="fas fa-shopping-cart"></i> Comprar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdutos"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProdutos"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Carrossel 3: Tênis -->
+          <div class="col-12 col-lg-4 mb-4">
+            <div id="carouselTenis" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+              data-bs-theme="dark">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="product-card">
+                    <img src="imagens/tenis_spfc.webp" alt="Tênis 1">
+                    <div class="product-info">
+                      <h5>Tênis Oficial SPFC</h5>
+                      <p class="descricao">Tênis leve, confortável e estiloso para os torcedores.</p>
+                      <div class="tags">
+                        <span class="badge bg-success">Destaque</span>
+                      </div>
+                      <p class="preco">R$ 499,90</p>
+                      <button class="btn btn-danger mt-2">
+                        <i class="fas fa-shopping-cart"></i> Comprar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="product-card">
+                    <img src="imagens/tenisSPFC2.webp" alt="Tênis 2">
+                    <div class="product-info">
+                      <h5>Tênis Oficial SPFC 2</h5>
+                      <p class="descricao">Modelo exclusivo com solado antiderrapante.</p>
+                      <div class="tags">
+                        <span class="badge bg-primary">Exclusivo</span>
+                      </div>
+                      <p class="preco">R$ 529,90</p>
+                      <button class="btn btn-danger mt-2">
+                        <i class="fas fa-shopping-cart"></i> Comprar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselTenis" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselTenis" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <a href="/produtos/index..html"><button class="btn btn-dark mt-2 botao-produtos">VER MAIS<i class="fa-solid fa-arrow-pointer ms-2"></i></button></div></a>
+
+    <section class="sobre">
+      <div class="container-sobre">
+        <div class="container my-5  sobre2" id="sobre">
+          <h2 class="text-center mb-4 fw-bold fs-1"><span class="text-danger">Sobre</span> <span class="text-white"> a</span> <span class="text-black">Loja</span></h2>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="imagens/loja-spfc.jpeg" alt="Loja SPFC" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-6">
+              <p class="lead sobre">A <strong>SPFC Store</strong> é a loja oficial do São Paulo Futebol Clube, feita
+                para
+                quem
+                carrega o Tricolor no coração.
+                Aqui você encontra <strong>camisas oficiais, produtos licenciados e colecionáveis exclusivos</strong>
+                que
+                celebram a história do clube.</p>
+              <p>Nosso compromisso é oferecer <strong>qualidade, autenticidade e atendimento de primeira</strong> para
+                todos
+                os torcedores apaixonados.
+                Venha viver essa paixão conosco e levar um pedaço da história do São Paulo para casa!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-contato">
+      <div class="container-form">
+        <div class="container contato" id="contato">
+          <h2>Fale Conosco</h2>
+          <form class="form-contato" action="#" method="put">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" id="nome" class="form-control" name="nome" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" id="email" class="form-control" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="assunto" class="form-label">Assunto</label>
+              <input type="text" id="assunto" class="form-control" name="assunto">
+            </div>
+
+            <div class="mb-3">
+
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea id="mensagem " class="form-control" name="mensagem" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-danger">Enviar <i class="fa-solid fa-message mf-2"></i></button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <footer class="text-white mt-5" style="background-color:#701415;">
+      <div class="container py-4 text-center">
+        <p class="mb-2">Siga-nos nas redes sociais:</p>
+        <div class="mb-3">
+          <a href="#" class="text-white me-3 fs-4"><i class="fab fa-facebook fa-1x"></i></a>
+          <a href="#" class="text-white me-3 fs-4"><i class="fab fa-instagram fa-1x"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-twitter fa-1x"></i></a>
+        </div>
+        <p class="mb-0">&copy; 2025 SPFC Store. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
